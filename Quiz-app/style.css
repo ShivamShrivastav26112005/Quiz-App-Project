@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Caveat:wght@400..700&family=Cedarville+Cursive&family=Orbitron:wght@400..900&display=swap');
+/* You add this URL to import Google Fonts into your CSS, allowing you to use custom fonts without downloading them manually. */
+
+/* ex -: h1 {font-family: 'Bungee Spice', cursive;} */
+  
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: "Orbitron", sans-serif;
+    /* color: #fff; */
+    background-color: #212121;
+}
+
+.app{
+    background-color: #fff;
+    width: 100%;
+    max-width: 700px;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgb(245, 124, 124);
+}
+
+.app h1{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    color: #001e4d;
+    border-bottom: 3px solid #333;
+    padding-bottom: 30px;
+}
+
+
+.quiz{
+    padding: 20px 0;
+}
+
+
+.quiz h2{
+    font-size: 18px;
+    color: #001e4d;
+    font-weight: 500;
+}
+
+
+.btn{
+    background-color: #fff;
+    color:#3d2424;
+    font-weight: 500;
+    font-size: 20px;
+    width: 100%;
+    border: px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.5s;
+
+}
+
+
+.btn:hover:not([disabled]){
+    background-color: #222;
+    color: #fff;
+};
+
+
+.btn:disabled{
+    cursor: no-drop;
+}
+
+
+#next-btn{
+    background-color: #001e4d;
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+    width: 150px;
+    border: none;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+
+
+.correct{
+    /* background-color:#9aeabc ; */
+    background-color: green;
+    color: white;
+}
+
+
+.incorrect{
+    /* background-color:#ff9393 ; */
+    background-color: red;
+    color: white;
+}
+
+
